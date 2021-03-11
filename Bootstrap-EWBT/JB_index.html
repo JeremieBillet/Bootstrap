@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- -------- lien feuille css --------------- -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ------------ script --------------------- -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- ------------------------------------ -->
+        <!-- -------------- HEADER -------------- -->
+        <!-- ------------------------------------ -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3 mt-1 rounded " role="navigation">
+            <div class="navbar-header">
+                <img src="img/minion.gif" alt="logo" title="Minion" width="80px" />
+                <h2 class="navbar-brand">
+                    Jérémie <br />
+                    Carnet de voyage
+                </h2>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="JB_accueil.html" target="myFrame">Accueil</a>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">blog</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="JB_chine.html" target="myFrame">Chine</a>
+                            <a class="dropdown-item" href="JB_mada.html" target="myFrame">Madagascar</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link" href="files/JeremieBilletCV.pdf">cv</a>
+                    <a class="nav-item nav-link" href="JB_contact.html" target="myFrame">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- ------------------------------------ -->
+        <!-- ------------ FRAGMENT -------------- -->
+        <!-- ------------------------------------ -->
+        <div>
+            <iframe id="myIframe" name="myFrame" src="JB_accueil.html" frameborder="0" width="100%" height="700px"></iframe>
+        </div>
+        <!-- ------------------------------------ -->
+        <!-- -------------- FOOTER -------------- -->
+        <!-- ------------------------------------ -->
+        <footer class="rounded bg-dark text-light d-flex justify-content-around mb-1 p-3">
+            <div>
+                <h4>Mes hobbies</h4>
+                <div>
+                    <img  src="img/piano.jpg" alt="piano" title="piano" height="80px">
+                    <img  src="img/running.jpg" alt="running" title="running" height="80px">
+                    <img  src="img/macaron.jpeg" alt="macaron" title="cooking" height="80px">
+                </div>
+            </div>
+            <div>
+                <table class="table text-light text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="3">The best guys</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Gandhi</td>
+                            <td>Pape Francois</td>
+                            <td>René Cotty</td>
+
+                        </tr>
+                        <tr>
+                            <td><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi">
+                                    <figure>
+                                        <img src="img/gandhi.jpg" alt="Gandhi" title="Ganghi" height="30px">
+                                        <figcaption>Gandhi</figcaption>
+                                    </figure>
+                                </a>
+                            </td>
+                            <td><a href="https://fr.wikipedia.org/wiki/Fran%C3%A7ois_(pape)">
+                                    <figure>
+                                        <img src="img/pape.jpg" alt="Pape" title="Francois" height="30px">
+                                        <figcaption>Francois Ier</figcaption>
+                                    </figure>
+                                </a>
+                            </td>
+
+                            <td>
+                                <a href="https://en.wikipedia.org/wiki/Ren%C3%A9_Coty">
+                                    <figure>
+                                        <img src="img/rene.jpg" alt="René" title="René Cotty" height="30px">
+                                        <figcaption>René Cotty</figcaption>
+                                    </figure>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
